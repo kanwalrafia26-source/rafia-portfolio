@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rafia Kanwal — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">Rafia<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="./Rafia_Kanwal_Resume.pdf" class="btn btn-ghost btn-sm cv-link" download>Résumé</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark mode">
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.9 4.9l1.7 1.7M16.4 16.4l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.9 19.1l1.7-1.7M16.4 7.6l1.7-1.7"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="./Rafia_Kanwal_Resume.pdf" class="btn btn-primary" download>Download résumé</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<section class="hero" id="hero">
+  <div class="hero-sky" id="hero-sky">
+    <div class="sky-layer sky-day"></div>
+    <div class="sky-layer sky-night" id="sky-night"></div>
+    <div class="stars" id="stars"></div>
+    <div class="sun" id="sun"></div>
+    <div class="skyline" id="skyline"></div>
+  </div>
+  <div class="wrap hero-content">
+    <p class="eyebrow">Software Engineering Student · Rawalpindi</p>
+    <h1>Rafia Kanwal</h1>
+    <p class="hero-sub">I build clean, purposeful mobile apps with Flutter — and I'm expanding into AI, one model and one line of Python at a time.</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-primary">View my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+  <div class="scroll-cue">Scroll — the sun sets ↓</div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="avatar-frame"><span>RK</span></div>
+    <div class="about-text">
+      <p class="eyebrow">About me</p>
+      <h2 style="margin:0.6rem 0 1.2rem;">Building software that stays out of people's way.</h2>
+      <p><strong>I'm a final-year Software Engineering student at NUML, Islamabad</strong>, with a strong foundation in software engineering principles and a habit of writing clean, structured, maintainable code.</p>
+      <p>My main craft is <strong>Flutter and Firebase mobile development</strong> — I like turning a real problem into an app people actually want to open twice. Lately I've been pairing that with coursework in <strong>Artificial Intelligence</strong>, working through search and state-space mapping algorithms in Python.</p>
+      <p>Whether it's a reminder app or a therapy tool, I care about the same thing: does this genuinely make someone's day easier.</p>
+      <div class="about-facts">
+        <div class="fact"><div class="fact-label">Based in</div><div class="fact-value">Rawalpindi, Pakistan</div></div>
+        <div class="fact"><div class="fact-label">Focus</div><div class="fact-value">Flutter · Firebase · AI</div></div>
+        <div class="fact"><div class="fact-label">Status</div><div class="fact-value">Final-year student</div></div>
+        <div class="fact"><div class="fact-label">Open to</div><div class="fact-value">Internships</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills" style="background:var(--bg-alt);">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Skills</p>
+      <h2>What I actually work with.</h2>
+      <p>A mobile-first toolkit, now growing outward into AI and data.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h3>Programming</h3>
+        <div class="tag-row">
+          <span class="tag">Dart</span><span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3" ry="3"/><line x1="5" y1="17" x2="19" y2="17"/></svg></div>
+        <h3>Mobile &amp; Backend</h3>
+        <div class="tag-row">
+          <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Firestore</span><span class="tag">MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="6" r="2"/><circle cx="20" cy="6" r="2"/><circle cx="4" cy="18" r="2"/><circle cx="20" cy="18" r="2"/><line x1="6" y1="7" x2="10" y2="11"/><line x1="18" y1="7" x2="14" y2="11"/><line x1="6" y1="17" x2="10" y2="13"/><line x1="18" y1="17" x2="14" y2="13"/></svg></div>
+        <h3>AI &amp; Data Foundations</h3>
+        <div class="tag-row">
+          <span class="tag">Core AI Concepts</span><span class="tag">Search Algorithms</span><span class="tag">DB Design</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+        <h3>Tools &amp; Practices</h3>
+        <div class="tag-row">
+          <span class="tag">Git</span><span class="tag">HTML/CSS</span><span class="tag">Clean Architecture</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Portfolio</p>
+      <h2>A couple of things I've built.</h2>
+      <p>Real apps, real users in mind — from daily-use utilities to accessibility-driven tools.</p>
+    </div>
+    <div class="work-grid">
+      <div class="project-card">
+        <div class="project-cover"><span class="eyebrow">Final Year Project</span></div>
+        <div class="project-body">
+          <h3>Speech Therapy App</h3>
+          <p>A mobile app that supports speech therapy through structured, interactive exercises — built with an accessible, user-friendly Flutter front end and a MongoDB backend for data storage and management.</p>
+          <div class="tag-row">
+            <span class="tag">Flutter</span><span class="tag">MongoDB</span><span class="tag">Accessibility</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-cover"><span class="eyebrow">Personal Project</span></div>
+        <div class="project-body">
+          <h3>Medicine Reminder App</h3>
+          <p>Helps users stay on top of daily medicine schedules, with Firebase Authentication and Firestore for real-time data, plus reminder notifications built on a modular, clean-architecture codebase.</p>
+          <div class="tag-row">
+            <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Notifications</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience" style="background:var(--bg-alt);">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Experience</p>
+      <h2>How I got here.</h2>
+      <p>My path so far — academic, but built on real projects at every step.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="tag">Ongoing</span>
+        <h3>Final Year Project — Speech Therapy App</h3>
+        <div class="org">Independent Build · Flutter &amp; MongoDB</div>
+        <p>Designing and developing a speech therapy application from the ground up, from architecture to interface, as my capstone project.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tag">Completed</span>
+        <h3>7th Semester, BS Software Engineering</h3>
+        <div class="org">NUML, Islamabad</div>
+        <p>Coursework spanning Artificial Intelligence, Operations Research, Software Testing, Project Management, and Software Reengineering.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tag">Self-directed</span>
+        <h3>Medicine Reminder App</h3>
+        <div class="org">Independent Build · Flutter &amp; Firebase</div>
+        <p>Built end-to-end to sharpen real-world Flutter and Firebase skills outside of coursework.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tag">Foundation</span>
+        <h3>Intermediate (ICS) &amp; Matriculation</h3>
+        <div class="org">Pre-Engineering / Computer Science</div>
+        <p>Where the interest in building things with code actually started.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact-panel">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's build something together.</h2>
+      <p>Open to internships and opportunities in software engineering and AI. Feel free to reach out — I reply fast.</p>
+      <div class="contact-actions">
+        <a href="mailto:kanwalrafia26@gmail.com" class="btn btn-primary">Email me</a>
+        <a href="https://www.linkedin.com/in/rafia-kanwal-011a5821b" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <footer>© <span id="year"></span> Rafia Kanwal — Designed with a sunset in mind.</footer>
+</section>
+
+</main>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 8);
+  }, { passive:true });
+
+  const hamburger = document.getElementById('hamburger');
+  hamburger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen);
+  });
+  document.querySelectorAll('.mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  const themeToggle = document.getElementById('theme-toggle');
+  themeToggle.addEventListener('click', () => {
+    document.documentElement.classList.toggle('light-mode');
+  });
+
+  const sectionIds = ['about','skills','work','experience','contact'];
+  const navLinks = Array.from(document.querySelectorAll('.nav-links a'));
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const link = navLinks.find(a => a.getAttribute('href') === '#' + entry.target.id);
+      if (!link) return;
+      if (entry.isIntersecting) {
+        navLinks.forEach(a => a.removeAttribute('aria-current'));
+        link.setAttribute('aria-current', 'page');
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px' });
+  sectionIds.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) sectionObserver.observe(el);
+  });
+
+  const skyline = document.getElementById('skyline');
+  const barCount = 22;
+  for (let i = 0; i < barCount; i++) {
+    const bar = document.createElement('i');
+    const h = 30 + Math.round(Math.sin(i * 0.7) * 20 + Math.random() * 25);
+    bar.style.height = h + '%';
+    skyline.appendChild(bar);
+  }
+
+  const hero = document.getElementById('hero');
+  const skyNight = document.getElementById('sky-night');
+  const stars = document.getElementById('stars');
+  const sun = document.getElementById('sun');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function updateSunset(){
+    const heroHeight = hero.offsetHeight;
+    const progress = Math.min(Math.max(window.scrollY / (heroHeight * 0.9), 0), 1);
+    skyNight.style.opacity = progress;
+    stars.style.opacity = Math.max(0, progress - 0.4) / 0.6;
+    const travel = heroHeight * 0.34;
+    sun.style.transform = `translate(-50%, ${progress * travel}px) scale(${1 - progress * 0.25})`;
+  }
+
+  if (!reduceMotion) {
+    window.addEventListener('scroll', () => window.requestAnimationFrame(updateSunset), { passive:true });
+    window.addEventListener('resize', updateSunset);
+    updateSunset();
+  } else {
+    skyNight.style.opacity = 0.35;
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
