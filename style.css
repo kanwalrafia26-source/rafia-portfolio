@@ -84,9 +84,8 @@ button:focus-visible{
 
 .eyebrow{
   font-family:var(--font-mono);
-  font-size:1.15rem;
-  font-weight:700;
-  letter-spacing:0.1em;
+  font-size:0.78rem;
+  letter-spacing:0.16em;
   text-transform:uppercase;
   color:var(--magenta);
 }
