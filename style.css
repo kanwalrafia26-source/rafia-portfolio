@@ -84,13 +84,14 @@ button:focus-visible{
 
 .eyebrow{
   font-family:var(--font-mono);
-  font-size:2.78rem;
-  letter-spacing:0.16em;
+  font-size:0.85rem;
+  font-weight:700;
+  letter-spacing:0.12em;
   text-transform:uppercase;
   color:var(--magenta);
 }
 
-h1,h2,h3{ font-family:var(--font-display); font-weight:700; letter-spacing:-0.01em; }
+h1,h2,h3{ font-family:var(--font-display); font-weight:800; letter-spacing:-0.01em; }
 
 .btn{
   display:inline-flex;
@@ -337,7 +338,7 @@ html.light-mode .skyline i{ background:#2E1245; }
   width:100%;
   padding-top:3rem;
 }
-.hero-content .eyebrow{ color:#FCE7F7; }
+.hero-content .eyebrow{ color:#FCE7F7; font-size:clamp(0.85rem, 1.5vw, 1rem); }
 html.light-mode .hero-content .eyebrow{ color:#5B1541; }
 
 .hero h1{
@@ -383,7 +384,7 @@ html.light-mode .scroll-cue{ color:#432A46; }
 /* ---------- SECTION SHELL ---------- */
 .section{ padding:clamp(4.5rem, 9vw, 7.5rem) 0; }
 .section-head{ max-width:40rem; margin-bottom:3rem; }
-.section-head h2{ font-size:clamp(2.4rem, 5.5vw, 3.6rem); margin-top:0.5rem; font-weight:700; }
+.section-head h2{ font-size:clamp(2.4rem, 5.5vw, 3.6rem); margin-top:0.5rem; font-weight:800; }
 .section-head p{ color:var(--text-dim); margin-top:0.9rem; font-size:1.05rem; }
 
 /* ---------- ABOUT ---------- */
@@ -468,7 +469,7 @@ html.light-mode .scroll-cue{ color:#432A46; }
   margin-bottom:1rem;
 }
 .skill-card .icon svg{ width:22px; height:22px; color:#FDF3FB; }
-.skill-card h3{ font-size:1.2rem; margin-bottom:0.7rem; font-weight:700; }
+.skill-card h3{ font-size:1.2rem; margin-bottom:0.7rem; font-weight:800; }
 .tag-row{ display:flex; flex-wrap:wrap; gap:0.5rem; }
 .tag{
   font-family:var(--font-mono);
@@ -505,9 +506,9 @@ html.light-mode .scroll-cue{ color:#432A46; }
   display:flex; align-items:flex-end;
   padding:1.2rem;
 }
-.project-cover .eyebrow{ color:#FDF0FA; }
+.project-cover .eyebrow{ color:#FDF0FA; font-size:0.7rem; }
 .project-body{ padding:1.6rem; flex:1; display:flex; flex-direction:column; }
-.project-body h3{ font-size:1.45rem; margin-bottom:0.6rem; font-weight:700; }
+.project-body h3{ font-size:1.7rem; margin-bottom:0.6rem; font-weight:800; }
 .project-body p{ color:var(--text-dim); font-size:0.98rem; margin-bottom:1rem; flex:1; }
 
 /* ---------- EXPERIENCE / TIMELINE ---------- */
@@ -532,7 +533,7 @@ html.light-mode .scroll-cue{ color:#432A46; }
   box-shadow:0 0 0 4px var(--bg);
 }
 .timeline-item .tag{ margin-bottom:0.6rem; display:inline-block; }
-.timeline-item h3{ font-size:1.35rem; margin-bottom:0.3rem; font-weight:700; }
+.timeline-item h3{ font-size:1.35rem; margin-bottom:0.3rem; font-weight:800; }
 .timeline-item .org{ color:var(--magenta); font-weight:700; font-size:0.92rem; margin-bottom:0.5rem; }
 .timeline-item p{ color:var(--text-dim); }
 
@@ -551,7 +552,7 @@ html.light-mode .scroll-cue{ color:#432A46; }
   position:absolute; inset:0;
   background:radial-gradient(circle at 20% 20%, rgba(236,72,153,0.18), transparent 55%);
 }
-.contact-panel h2{ font-size:clamp(2.4rem, 5.5vw, 3.6rem); position:relative; font-weight:700; }
+.contact-panel h2{ font-size:clamp(2.4rem, 5.5vw, 3.6rem); position:relative; font-weight:800; }
 .contact-panel p{ color:var(--text-dim); max-width:32rem; margin:1rem auto 2rem; position:relative; }
 .contact-actions{ display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; position:relative; }
 
